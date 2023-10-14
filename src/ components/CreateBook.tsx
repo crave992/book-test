@@ -15,6 +15,7 @@ const CreateBook = () => {
 
   const handleCreate = (book: Book) => {
     createBook(book);
+    window.location.reload();
   };
 
   return (
